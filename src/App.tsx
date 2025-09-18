@@ -5,6 +5,7 @@ import Projetos from '../pages/Projetos'
 import Contato from '../pages/Contato'
 import Time from '../pages/Time'
 import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/contato" element={<Contato />} />
           <Route path="/time" element={<Time />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   )
